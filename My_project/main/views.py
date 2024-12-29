@@ -7,8 +7,5 @@ def data(request):
     return HttpResponse("<h1>New page with data</h1>")
 #def test(request):
    # return HttpResponse("<h1>New page for test</h1>")
-
-
-
 def test(request):
     return render(request, 'test.html')
